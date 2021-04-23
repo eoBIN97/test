@@ -27,13 +27,26 @@ nav{
 	padding: 0px 5%;
 }
 
+.logo { 
+font-family: calibri;
+letter-spacing: 3px;
+color: #000000;
+margin-right: auto;
+ }
+
+img.logo2 {
+width: 50px;
+height: 50px;
+
+}
+
 nav ul {
 	display: flex;
 }
 nav ul li a {
 	margin: 30px;
-	font-family: myriad pro regular;
-	color: #505050;
+	font-family: OCR A Std, monospace;
+	color: #000000;
 	font-size: 15px;
 	font-weight: 700;
 }
@@ -356,4 +369,50 @@ h1 {
 p{
 	font-size: 15px;
 	font-family: calibri;
+}
+iframe {
+	width: 100%;
+}
+
+.trabtexto {
+	font-family: myriad pro;
+	font-size: 40px;
+	color: #1C1C1C;
+	font-weight: bold
+	line-height: 5px;
+	text-align: center;
+}
+.text2 {
+	color: #1c1c1c;
+	font-size: 18px;
+	line-height: 5px;
+	text-align: center;
+}
+.end {
+	color: #3e3d3d;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: Courier New;
+	line-height: 15px;
+	width: 60%;
+	margin: 100px 740px 30px;
+ 
+}
+.endereco {
+	color: #3e3d3d;
+	font-family: Courier New;
+	width: 60%;
+	position: relative; 
+	margin: 0px 740px 100px;
+}
+.imagen {
+	width: 100%;
+	height:280px;
+	background-image: url(bg2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
